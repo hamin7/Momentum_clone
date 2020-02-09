@@ -4,7 +4,7 @@ const IMG_NUMBER = 5;
 
 function paintImage(imgNumber) {
   const image = new Image();
-  image.src = `images/${imgNumber + 1}.jpg`;  // 1~3 중 하나의 사진 선택.
+  image.src = `src/images/${imgNumber + 1}.jpg`;  // 1~3 중 하나의 사진 선택.
   image.classList.add("bgImage");
   body.prepend(image);
 }
